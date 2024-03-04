@@ -1,4 +1,4 @@
-# Infomaniak Node and Deno API Library - NodeJs and Deno
+# Infomaniak Node and Deno API Library
 
 This library provides convenient access to the Infomaniak REST API from TypeScript or JavaScript.
 
