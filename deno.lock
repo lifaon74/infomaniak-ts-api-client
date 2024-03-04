@@ -1,5 +1,8 @@
 {
   "version": "3",
+  "redirects": {
+    "https://deno.land/x/infomaniak/mod.ts": "https://deno.land/x/infomaniak@0.1.0/mod.ts"
+  },
   "remote": {
     "https://deno.land/std@0.140.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
     "https://deno.land/std@0.140.0/_util/os.ts": "3b4c6e27febd119d36a416d7a97bd3b0251b77c88942c8f16ee5953ea13e2e49",
@@ -73,6 +76,12 @@
     "https://deno.land/x/dnt@0.40.0/lib/utils.ts": "224f15f33e7226a2fd991e438d0291d7ed8c7889807efa2e1ecb67d2d1db6720",
     "https://deno.land/x/dnt@0.40.0/mod.ts": "ae1890fbe592e4797e7dd88c1e270f22b8334878e9bf187c4e11ae75746fe778",
     "https://deno.land/x/dnt@0.40.0/transform.ts": "f68743a14cf9bf53bfc9c81073871d69d447a7f9e3453e0447ca2fb78926bb1d",
+    "https://deno.land/x/infomaniak@0.1.0/infomaniak-client.class.ts": "b7b4c6d48630beebd5142f9806be5614f265b78f42d8541782062c57cd3a2737",
+    "https://deno.land/x/infomaniak@0.1.0/llm/conversation.class.ts": "dc48b08986558af7b12d0b6c9c9adffc647370492e893e9f7345177def1ade60",
+    "https://deno.land/x/infomaniak@0.1.0/llm/infomaniak-llm.class.ts": "7cb3f7e8292be86178b61a770bf85c25ef6dba2ca975ecc9da767071ee89f70d",
+    "https://deno.land/x/infomaniak@0.1.0/mod.ts": "e041041e2baac8ae5ded413ccce334a31babf7e03a3a0e60a6ced14ff02e48d1",
+    "https://deno.land/x/infomaniak@0.1.0/types/abortable.type.ts": "59174ec6f991c4e583b5457d40189353a1e54caa2202fa3ebcab3c73ac9a1eed",
+    "https://deno.land/x/infomaniak@0.1.0/types/product-id.type.ts": "7cecc7e41d2a353bcefe4370f0427303ffa93a2e26dbda0efe9ca9cf53371e47",
     "https://deno.land/x/ts_morph@20.0.0/bootstrap/mod.ts": "b53aad517f106c4079971fcd4a81ab79fadc40b50061a3ab2b741a09119d51e9",
     "https://deno.land/x/ts_morph@20.0.0/bootstrap/ts_morph_bootstrap.js": "6645ac03c5e6687dfa8c78109dc5df0250b811ecb3aea2d97c504c35e8401c06",
     "https://deno.land/x/ts_morph@20.0.0/common/DenoRuntime.ts": "6a7180f0c6e90dcf23ccffc86aa8271c20b1c4f34c570588d08a45880b7e172d",

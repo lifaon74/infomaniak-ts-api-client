@@ -15,7 +15,7 @@ yarn add @infomaniak/client-api
 You can import in Deno via:
 
 ```ts
-import { InfomaniakClient } from 'https://deno.land/x/infomaniak@v0.1.0/mod.ts';
+import { InfomaniakClient } from 'https://deno.land/x/infomaniak/mod.ts';
 ```
 
 **[Getting started](./tutorials/getting-started.md)**
@@ -28,7 +28,7 @@ The code below shows how to get started using the `llm API`:
 
 ```ts
 import { load } from 'https://deno.land/std@0.217.0/dotenv/mod.ts';
-import { InfomaniakClient } from 'https://deno.land/x/infomaniak@v0.1.0/mod.ts';
+import { InfomaniakClient } from 'https://deno.land/x/infomaniak/mod.ts';
 
 await load({
   export: true,

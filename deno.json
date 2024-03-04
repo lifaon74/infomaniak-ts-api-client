@@ -3,7 +3,7 @@
     "std/": "https://deno.land/std@0.217.0/"
   },
   "tasks": {
-    "start": "deno run --watch --allow-net --allow-read --allow-env  ./examples/main.ts",
+    "start": "deno run --watch --allow-net --allow-read --allow-env  ./examples/llm.ts",
     "build:npm": "deno run -A ./scripts/build-npm.ts 0.1.0"
   }
 }

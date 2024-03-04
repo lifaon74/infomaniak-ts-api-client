@@ -1,5 +1,5 @@
 import { load } from 'https://deno.land/std@0.217.0/dotenv/mod.ts';
-import { InfomaniakClient } from '../src/infomaniak-client.class.ts';
+import { InfomaniakClient } from 'https://deno.land/x/infomaniak@0.1.0/mod.ts';
 
 await load({
   export: true,
