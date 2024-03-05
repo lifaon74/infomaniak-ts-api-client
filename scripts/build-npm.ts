@@ -22,16 +22,16 @@ await build({
   },
   package: {
     // package.json properties
-    name: "@infomaniak/api-client",
-    version: Deno.args[0],
+    name: "@infomaniak/ts-api-client",
+    version: Deno.args[0]?.replace(/^v/, ''),
     description: 'Infomaniak Node and Deno API Library',
     license: 'MIT',
     repository: {
       type: 'git',
-      url: 'https://github.com/Infomaniak/api-client',
+      url: 'https://github.com/Infomaniak/ts-api-client',
     },
     bugs: {
-      url: 'https://github.com/Infomaniak/api-client/issues',
+      url: 'https://github.com/Infomaniak/ts-api-client/issues',
     },
   },
   postBuild() {
