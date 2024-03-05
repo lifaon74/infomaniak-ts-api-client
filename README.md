@@ -7,9 +7,9 @@ To learn how to use the Infomaniak API, check out our [API Documentation](https:
 ## Installation
 
 ```bash
-npm install --save @infomaniak/client-api
+npm install --save @infomaniak/ts-api-client
 # or
-yarn add @infomaniak/client-api
+yarn add @infomaniak/ts-api-client
 ```
 
 You can import in Deno via:
