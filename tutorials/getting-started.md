@@ -34,7 +34,7 @@ We'll use Deno for convenience, but you may use NodeJs too:
 
 ```ts 
 // main.ts
-import { InfomaniakClient } from 'https://deno.land/x/@infomaniak/client-api@v0.1.0/mod.ts';
+import { InfomaniakClient } from 'https://deno.land/x/infomaniak@0.1.0/mod.ts';
 
 async function main() {
   // first, we create an instance of `InfomaniakClient` with our token,

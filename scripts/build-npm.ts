@@ -1,5 +1,9 @@
 import { build, emptyDir } from 'https://deno.land/x/dnt@0.40.0/mod.ts';
 
+/*
+DNT: https://github.com/denoland/dnt
+ */
+
 const SRC_PATH = './src';
 const NPM_BUILD_PATH = './npm';
 
