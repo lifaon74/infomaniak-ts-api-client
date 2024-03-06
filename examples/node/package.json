@@ -1,0 +1,15 @@
+{
+  "name": "infomaniak-ts-api-client-examples-node",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node llm.node.js"
+  },
+  "dependencies": {
+    "@infomaniak/ts-api-client": "^0.1.7",
+    "dotenv": "^16.4.5"
+  }
+}
